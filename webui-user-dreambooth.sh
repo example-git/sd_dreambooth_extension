@@ -4,14 +4,14 @@
 #########################################################
 
 # Install directory without trailing slash
-#install_dir="/workspace/stable-diffusion-webui/extensions/sd_dreambooth_extension"
+install_dir="/workspace/stable-diffusion-webui"
 
 # Name of the subdirectory
 #clone_dir="stable-diffusion-webui"
 
 # Commandline arguments for webui.py, for example: export COMMANDLINE_ARGS="--medvram --opt-split-attention"
 export COMMANDLINE_ARGS=""
-export XFORMERS_PACKAGE="xformers==0.0.21"
+#export XFORMERS_PACKAGE="xformers==0.0.21"
 
 # python3 executable
 #python_cmd="python3"
@@ -27,7 +27,7 @@ export XFORMERS_PACKAGE="xformers==0.0.21"
 
 # Requirements file to use for stable-diffusion-webui + dreambooth.
 # If you changed the name of the dreambooth extension directory, change it below
-export REQS_FILE="./stable-diffusion-webui/extensions/sd_dreambooth_extension/requirements.txt"
+# $export REQS_FILE="./stable-diffusion-webui/extensions/sd_dreambooth_extension/requirements.txt"
 # Uncomment to skip auto-install on run.
 # export DREAMBOOTH_SKIP_INSTALL=True
 # Fixed git repos
